@@ -2,7 +2,7 @@ import { type GridColDef, type GridSortModel } from "@mui/x-data-grid";
 import { useSnackbar } from "notistack";
 import { useHits, useInstantSearch } from "react-instantsearch";
 import { DataTable, type RowAction, type RowData } from "./DataGrid";
-import { useGetUserPrefs, useUpdateUserPrefs } from "./useUserPrefs.hook";
+import { useGetUserPrefs, useUpdateUserPrefs } from "../hooks/useUserPrefs.hook";
 
 const defaultColumns: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 200 },

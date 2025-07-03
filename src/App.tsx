@@ -2,8 +2,8 @@ import { Paper, Stack } from "@mui/material";
 import Client from "@searchkit/instantsearch-client";
 import { CurrentRefinements, InstantSearch, SearchBox } from "react-instantsearch";
 import Searchkit from "searchkit";
-import { MenuSelect } from "./MenuSelect";
-import SearchResults from "./SearchResults";
+import { MenuSelect } from "./components/MenuSelect";
+import SearchResults from "./components/SearchResults";
 
 const sk = new Searchkit({
   connection: {
